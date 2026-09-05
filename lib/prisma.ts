@@ -34,7 +34,6 @@ const adapter = new PrismaMariaDb({
   password: db.password,
   database: db.database,
 
-  // Railway + Vercel
   connectionLimit: 5,
   acquireTimeout: 10000,
   connectTimeout: 10000,
